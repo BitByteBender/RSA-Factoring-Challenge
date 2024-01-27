@@ -4,7 +4,7 @@
  */
 void fileFactorizer(FILE *file, char *ln, size_t length)
 {
-	unsigned long Number = 0;
+	unsigned long long Number = 0;
 
 	while (getline(&ln, &length, file) != - 1)
 	{

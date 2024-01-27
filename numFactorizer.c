@@ -2,11 +2,11 @@
 /**
  *
  */
-void numFactorizer(unsigned long Number)
+void numFactorizer(unsigned long long Number)
 {
-	unsigned long fct = 2, fctResult;
+	unsigned long long fct = 2, fctResult;
 
-	printf("%lu=", Number);
+	printf("%llu=", Number);
 
 	for (; (fct * fct) <= Number; fct++)
 	{
@@ -14,9 +14,9 @@ void numFactorizer(unsigned long Number)
 
 	if (Number % fct == 0)
 	{
-	printf("%lu*%lu\n", fctResult, fct);
+	printf("%llu*%llu\n", fctResult, fct);
 	return;
 	}
 	}
-	printf("1*%lu\n", Number);
+	printf("1*%llu\n", Number);
 }

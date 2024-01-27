@@ -2,7 +2,7 @@
 /**
  *
  */
-unsigned long dtSwitcher(const char *s, unsigned long r)
+unsigned long long dtSwitcher(const char *s, unsigned long long r)
 {
 	while (*s >= '0' && *s <= '9')
 	{
