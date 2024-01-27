@@ -1,6 +1,8 @@
 #include "fact.h"
 /**
- *
+ * fileOpener - opens a file
+ * @fname: file name
+ * Return: pointer to opened file
  */
 FILE *fileOpener(const char *fname)
 {

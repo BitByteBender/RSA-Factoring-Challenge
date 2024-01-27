@@ -1,6 +1,9 @@
 #include "fact.h"
 /**
- *
+ * dtSwitcher - converts string to unsigned long long int
+ * @s: input to be converted
+ * @r: val of result
+ * Return: converted data type (ull)
  */
 unsigned long long dtSwitcher(const char *s, unsigned long long r)
 {

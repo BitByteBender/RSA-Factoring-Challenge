@@ -1,6 +1,7 @@
 #include "fact.h"
 /**
- *
+ * numFactorizer - factorizes a given num
+ * @Number: number to factorize
  */
 void numFactorizer(unsigned long long Number)
 {
